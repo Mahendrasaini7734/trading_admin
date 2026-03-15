@@ -19,7 +19,7 @@ copy .env.example .env
 Edit `.env`:
 
 ```
-VITE_API_BASE_URL= http://127.0.0.1:8000
+VITE_API_BASE_URL= https://trading.stackearn.com
 ```
 
 ## Run
@@ -28,7 +28,7 @@ VITE_API_BASE_URL= http://127.0.0.1:8000
 npm run dev
 ```
 
-Open: http://127.0.0.1:8000
+Open: https://trading.stackearn.com
 
 ## Pages
 
