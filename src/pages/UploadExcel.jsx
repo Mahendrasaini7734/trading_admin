@@ -56,8 +56,8 @@ export default function UploadExcel() {
   const startAuto = async () => {
     try {
       setLoading(true);
-      await api.post("/excel/start-auto"); 
-      // await api.post("/markets/update-open-price-now");
+      // await api.post("/excel/start-auto"); 
+      await api.post("/markets/update-open-price-now");
 
       setMsg("✅ Auto Started From Database");
     } catch {
